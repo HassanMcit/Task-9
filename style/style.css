@@ -31,9 +31,13 @@ body {
 
 .bg-danger {
     --bs-bg-opacity: 1;
-    background-color: #DD761C!important;
+    background-color: #DD761C !important;
 }
 
-.w-75 {
-    width: 90% !important;
+
+@media all and (max-width: 900px) {
+
+    .w-75 {
+        width: 90% !important;
+    }
 }
