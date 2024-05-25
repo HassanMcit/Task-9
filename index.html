@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task 9</title>
+    <link rel="stylesheet" href="style/bootstrap.min.css">
+    <link rel="stylesheet" href="style/style.css">
+</head>
+
+<body>
+    <div class="container text-white text-center py-5">
+        <div class="row">
+            <div class="col-12">
+                <h1 class="font-size-80 fw-bold">Quote of the Day</h1>
+                <p class="font-size-35 my-5">Press the button below to recieve a random quote!</p>
+                <button type="button" id="button" onclick="createQuote()"
+                    class="btn btn-success px-5 py-3 fs-3 rounded-5">New Quote</button>
+                <div id="display" class="text bg-danger w-75 mx-auto d-none px-4 mt-4 fs-2 rounded-5 py-4">
+                    <p id="txt" class=" text-center"></p>
+                    <h3 id="author" class="fw-bold fs-1 text-dark"></h3>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script/bootstrap.bundle.min.js"></script>
+    <script src="script/index.js"></script>
+</body>
+
+</html>
